@@ -1,28 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Beau Zermeno – CS Portfolio</title>
-</head>
-<body>
-  <h1>Computer Science Projects</h1>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beau Zermeno – Computer Science Portfolio</title>
 
-  <ul>
-    <li>
-      <a href="https://bzermeno.github.io/cs-project-1/">
-        Project 1 – Description
-      </a>
-    </li>
-    <li>
-      <a href="https://bzermeno.github.io/cs-project-2/">
-        Project 2 – Description
-      </a>
-    </li>
-    <li>
-      <a href="https://bzermeno.github.io/cs-project-3/">
-        Project 3 - Description
-      </a>
-    </li>
-  </ul>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Beau Zermeno</h1>
+    <p>Computer Science Student • Software Development • Data Analysis</p>
+  </header>
+
+  <main>
+    <h2>Projects</h2>
+
+    <section class="projects">
+
+      <div class="project-card">
+        <h3>CS Project 1</h3>
+        <p>Brief description of the project and the concepts demonstrated.</p>
+        <a href="https://bzermeno.github.io/cs-project-1/">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>CS Project 2</h3>
+        <p>Brief description of the project and the technologies used.</p>
+        <a href="https://bzermeno.github.io/cs-project-2/">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>CS Project 3</h3>
+        <p>Brief description of the project and course outcomes addressed.</p>
+        <a href="https://bzermeno.github.io/cs-project-3/">View Project →</a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Beau Zermeno
+  </footer>
+
 </body>
 </html>
-
