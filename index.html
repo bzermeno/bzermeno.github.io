@@ -1,128 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Beau Zermeno: CS-499 Portfolio</title>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f7fa;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-
-    header {
-      background-color: #1f2937;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    header p {
-      margin-top: 10px;
-      font-size: 1.1rem;
-      opacity: 0.9;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .project-card {
-      background: white;
-      border-radius: 8px;
-      padding: 20px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-      transition: transform 0.2s;
-    }
-
-    .project-card:hover {
-      transform: translateY(-4px);
-    }
-
-    .project-card h3 {
-      margin-top: 0;
-    }
-
-    .project-card a {
-      display: inline-block;
-      margin-top: 10px;
-      color: #2563eb;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beau Zermeno: CS-499 Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">CS-499 Portfolio</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <header>
-    <h1>Beau Zermeno</h1>
-    <p>CS-499: Computer Science Capstone</p>
-    <p>Southern New Hampshire University</p>
-  </header>
+    <main class="container">
+        <header class="hero">
+            <h1>Beau Zermeno</h1>
+            <p class="subtitle">CS-499: Computer Science Capstone</p>
+            <p class="subtitle">Southern New Hampshire University</p>
+        </header>
 
-  <main>
-    <h2>Projects</h2>
+        <section class="projects-section">
+            <h2>Projects</h2>
 
-    <section class="projects">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Software Engineering and Design</h3>
+                    <p>CS-320: Software Testing, Automation, and Quality Assurance</p>
+                    <a href="https://bzermeno.github.io/CS_320/">View Project</a>
+                </div>
 
-      <div class="project-card">
-        <h3>Software Engineering and Design</h3>
-        <p>CS-320: Software Testing, Automation, and Quality Assurance</p>
-        <a href="https://bzermeno.github.io/CS_320/">View Project</a>
-      </div>
+                <div class="project-card">
+                    <h3>Algorithms and Data Structures</h3>
+                    <p>CS-300: Data Structures and Algorithms</p>
+                    <a href="https://bzermeno.github.io/CS_300/">View Project</a>
+                </div>
 
-      <div class="project-card">
-        <h3>Algorithms and Data Structures</h3>
-        <p>CS-300: Data Structures and Algorithms</p>
-        <a href="https://bzermeno.github.io/CS_300/">View Project</a>
-      </div>
+                <div class="project-card">
+                    <h3>Databases</h3>
+                    <p>CS-340: Client/Server Development</p>
+                    <a href="https://bzermeno.github.io/CS_340/">View Project</a>
+                </div>
+            </div>
+        </section>
 
-      <div class="project-card">
-        <h3>Databases</h3>
-        <p>CS-340: Client/Server Development</p>
-        <a href="https://bzermeno.github.io/CS_340/">View Project</a>
-      </div>
-
-    </section>
-
-    <h2>Code Review</h2>
-    <div class="video-wrapper">
-    <iframe 
-      width="560" 
-      height="315" 
-      src="https://www.youtube.com/embed/QTP3jMbzVpM" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
-    </div>
-  </main>
+        <section class="code-review-section">
+            <h2>Code Review</h2>
+            <div class="video-wrapper">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/QTP3jMbzVpM" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
