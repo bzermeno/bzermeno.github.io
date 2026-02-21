@@ -1,6 +1,8 @@
 # bzermeno.github.io
 
-This repository hosts **Beau Zermeno's CS-499 Computer Science Capstone ePortfolio** for Southern New Hampshire University (SNHU).
+Author: Beau Zermeno
+
+This repository hosts the CS-499 Computer Science Capstone ePortfolio for Southern New Hampshire University (SNHU).
 
 The site is a GitHub Pages portfolio that presents a professional self-assessment alongside three enhanced capstone projects, each demonstrating growth in a core area of computer science:
 
@@ -11,5 +13,7 @@ The site is a GitHub Pages portfolio that presents a professional self-assessmen
 | Databases | CS-340: Client/Server Development | Python/MongoDB CRUD dashboard with Dash and Plotly visualizations |
 
 A code review video walkthrough of all three original artifacts is also included.
+
+**Code Review:** <https://youtu.be/QTP3jMbzVpM>
 
 **Live site:** <https://bzermeno.github.io>
